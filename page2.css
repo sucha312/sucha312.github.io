@@ -1,0 +1,91 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Karma", sans-serif;
+  margin: 0;
+  color: mintcream;
+}
+
+/* Background */
+body {
+  background-color: #e85581; /* เปลี่ยนสีพื้นหลังของหน้าเว็บเป็นสีชมพู */
+}
+
+header {
+  background-color: #998ed9;
+}
+
+/* Top menu styles */
+.w3-top {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.w3-white {
+  background-color: #e85581 !important; /* เปลี่ยนสีพื้นหลังของ Top Menu */
+}
+
+/* Sidebar styles */
+.w3-sidebar {
+  background-color: #009999; /* เปลี่ยนสีพื้นหลังของ Sidebar */
+  width: 40%; /* ปรับความกว้างของ Sidebar */
+  min-width: 300px;
+}
+
+/* Close Menu button styles */
+.w3-bar-item {
+  padding: 20px;
+}
+
+/* Main content styles */
+.w3-main {
+  margin-top: 50px;
+  margin-left: 300px; /* ปรับระยะห่างของ Main content เมื่อ Sidebar เปิด */
+}
+
+/* Footer button styles */
+footer button {
+  padding: 10px 20px;
+  background-color: #5fa085;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* เพิ่มเอฟเฟ็กต์การเปลี่ยนสี */
+}
+
+footer button:hover {
+  background-color: #7c60b0;
+}
+
+/* Photo grid styles */
+.w3-row-padding {
+  margin: 0 -16px;
+}
+
+.w3-quarter {
+  width: 25%;
+  padding: 0 16px;
+}
+
+.w3-quarter img {
+  border-radius: 5px; /* เพิ่มขอบมนเรียบให้กับรูปภาพ */
+  transition: transform 0.3s ease; /* เพิ่มเอฟเฟ็กต์การเปลี่ยนขนาด */
+}
+
+.w3-quarter img:hover {
+  transform: scale(1.05); /* ปรับขนาดของรูปภาพเมื่อเมาส์ชี้ไป */
+}
+
+.w3-quarter h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Additional padding for responsiveness */
+@media screen and (max-width: 600px) {
+  .w3-quarter {
+      width: 100%;
+  }
+}

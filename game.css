@@ -1,0 +1,36 @@
+/* game.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+}
+
+#gameCanvas {
+  border: 1px solid #000;
+}
+
+p {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #635baa;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #90164d;
+}
